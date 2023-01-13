@@ -6,6 +6,7 @@ public class ListOfAlgorithms {
                 "1. Print your name\n" +
                 "2. Sum two given numbers\n" +
                 "3. Divide two given numbers\n" +
-                "4. Multiple two given numbers");
+                "5. Multiple two given numbers\n" +
+                "7. Multiple by 1-10");
     }
 }

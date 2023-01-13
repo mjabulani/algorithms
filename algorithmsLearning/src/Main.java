@@ -17,11 +17,15 @@ public class Main {
 
     public static void runProgram(int program) throws Exception {
         switch (program) {
-            case 0 -> ListOfAlgorithms.list();
+            case 0 -> {
+                ListOfAlgorithms.list();
+                runProgram();
+            }
             case 1 -> One.printName();
             case 2 -> Two.sumTwoNumbers();
             case 3 -> Three.divideTwoNumbers();
             case 4 -> Five.multiple();
+            case 7 -> Seven.multiBy10();
             default -> throw new Exception("Wrong choice");
         }
     }

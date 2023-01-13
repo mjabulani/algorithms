@@ -28,6 +28,7 @@ public class Main {
             case 7 -> Seven.multiBy10();
             case 11 -> Eleven.circle();
             case 12 -> Twelve.printAvNum();
+            case 15 -> Fifteen.swapVariables();
             default -> throw new Exception("Wrong choice");
         }
     }

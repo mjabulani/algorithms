@@ -9,6 +9,7 @@ public class ListOfAlgorithms {
                 "5. Multiple two given numbers\n" +
                 "7. Multiple by 1-10\n" +
                 "11. Circle\n" +
-                "12. Average number");
+                "12. Average number\n" +
+                "15. Swap variables");
     }
 }

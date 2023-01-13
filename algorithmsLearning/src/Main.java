@@ -26,6 +26,8 @@ public class Main {
             case 3 -> Three.divideTwoNumbers();
             case 4 -> Five.multiple();
             case 7 -> Seven.multiBy10();
+            case 11 -> Eleven.circle();
+            case 12 -> Twelve.printAvNum();
             default -> throw new Exception("Wrong choice");
         }
     }

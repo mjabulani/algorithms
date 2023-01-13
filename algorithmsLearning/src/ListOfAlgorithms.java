@@ -7,6 +7,8 @@ public class ListOfAlgorithms {
                 "2. Sum two given numbers\n" +
                 "3. Divide two given numbers\n" +
                 "5. Multiple two given numbers\n" +
-                "7. Multiple by 1-10");
+                "7. Multiple by 1-10\n" +
+                "11. Circle\n" +
+                "12. Average number");
     }
 }

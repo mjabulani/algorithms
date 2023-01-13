@@ -1,29 +1,26 @@
 import javax.sound.midi.Soundbank;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-
-
-        One.printName("Marek Jabulani");
-
-//        2. Write a Java program to print the sum of two numbers.
-//        Test Data:
-//        74 + 36
-//        Expected Output :
-//        110
-
-        System.out.println(Two.sumTwoNumbers(5, 6));
-
-//        3. Write a Java program to divide two numbers and print on the screen.
-
-        System.out.println(Three.DivideTwoNumbs(5, 2));
-
-//        4. Write a Java program to print the result of the following operations. Go to the editor
-//        Test Data:
-//        a. -5 + 8 * 6
-//        b. (55+9) % 9
-//        c. 20 + -3*5 / 8
-//        d. 5 + 15 / 3 * 2 - 8 % 3
     }
+
+    public static void runProgram() {
+        System.out.println("Chose the program you want to run\n" +
+                "Type 0 to view list of available programs");
+        Scanner s = new Scanner(System.in);
+        int program = s.nextInt();
+
+    }
+
+    public static void runProgram(int program) throws Exception {
+        //                ListOfAlgorithms.list();
+        switch (program) {
+            case 0 -> ListOfAlgorithms.list();
+            case 1 -> One.printName();
+            default -> throw new Exception("Wrong choice");
+        }
+    }
+
 }

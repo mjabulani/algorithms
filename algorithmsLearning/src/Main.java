@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,7 +18,9 @@ public class Main {
 
         System.out.println(Two.sumTwoNumbers(5, 6));
 
+//        3. Write a Java program to divide two numbers and print on the screen.
 
-
+        System.out.println(Three.DivideTwoNumbs(5, 2));
+        
     }
 }

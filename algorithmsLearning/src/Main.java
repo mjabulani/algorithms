@@ -13,15 +13,16 @@ public class Main {
         Scanner s = new Scanner(System.in);
         int program = s.nextInt();
         runProgram(program);
-
     }
 
     public static void runProgram(int program) throws Exception {
         switch (program) {
             case 0 -> ListOfAlgorithms.list();
             case 1 -> One.printName();
+            case 2 -> Two.sumTwoNumbers();
+            case 3 -> Three.divideTwoNumbers();
+            case 4 -> Five.multiple();
             default -> throw new Exception("Wrong choice");
         }
     }
-
 }

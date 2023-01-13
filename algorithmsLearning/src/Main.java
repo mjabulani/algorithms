@@ -3,10 +3,7 @@ import javax.sound.midi.Soundbank;
 public class Main {
     public static void main(String[] args) {
 
-//        #1: Write a Java program to print 'Hello' on screen and then print your name on a separate line.
-//          Expected Output :
-//          Hello
-//          Alexandra Abramov
+
 
         One.printName("Marek Jabulani");
 
@@ -21,6 +18,12 @@ public class Main {
 //        3. Write a Java program to divide two numbers and print on the screen.
 
         System.out.println(Three.DivideTwoNumbs(5, 2));
-        
+
+//        4. Write a Java program to print the result of the following operations. Go to the editor
+//        Test Data:
+//        a. -5 + 8 * 6
+//        b. (55+9) % 9
+//        c. 20 + -3*5 / 8
+//        d. 5 + 15 / 3 * 2 - 8 % 3
     }
 }

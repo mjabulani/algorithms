@@ -1,3 +1,4 @@
+import java.util.HexFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -33,6 +34,7 @@ public class Main {
             case 15 -> Fifteen.swapVariables();
             case 17 -> Seventeen.sumBinary();
             case 18 -> Eighteen.multiplyBinary();
+            case 26 -> TwentySix.octalToBinary();
             default -> throw new Exception("Wrong choice");
         }
     }

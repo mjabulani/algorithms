@@ -1,18 +1,20 @@
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
 
         runProgram();
+
+
     }
 
     public static void runProgram() throws Exception {
-        System.out.println("Chose the program you want to run\n" +
-                "Type 0 to view list of available programs");
+        System.out.println("\nChose the program you want to run\n" +
+                "Type 0 to view list of available programs\n");
         Scanner s = new Scanner(System.in);
         int program = s.nextInt();
         runProgram(program);
+
     }
 
     public static void runProgram(int program) throws Exception {
@@ -29,6 +31,8 @@ public class Main {
             case 11 -> Eleven.circle();
             case 12 -> Twelve.printAvNum();
             case 15 -> Fifteen.swapVariables();
+            case 17 -> Seventeen.sumBinary();
+            case 18 -> Eighteen.multiplyBinary();
             default -> throw new Exception("Wrong choice");
         }
     }

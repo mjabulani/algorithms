@@ -10,6 +10,8 @@ public class ListOfAlgorithms {
                 "7. Multiple by 1-10\n" +
                 "11. Circle\n" +
                 "12. Average number\n" +
-                "15. Swap variables");
+                "15. Swap variables\n" +
+                "17. Sum two binary numbers\n" +
+                "18. Multiply two binary numbers");
     }
 }

@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Fifteen {
 
 
-
     public static void swapVariables() {
         int temp = 0;
         System.out.println("## Swap variables program");

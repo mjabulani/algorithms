@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Three {
 
     public static int divideTwoNumbs(int a, int b) {
-        return a/b;
+        return a / b;
     }
+
     public static void divideTwoNumbers() {
         System.out.println("## Divide program");
         Scanner s = new Scanner(System.in);

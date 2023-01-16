@@ -25,7 +25,7 @@ public class Fifty {
         }
         System.out.println("By 3 (" + by3.size() + " elements): " + by3 + "\n" +
                 "By 5 (" + by5.size() + " elements): " + by5 + "\n" +
-                "By 3 and by 5 (" + by3And5.size() + " elements): " +by3And5);
+                "By 3 and by 5 (" + by3And5.size() + " elements): " + by3And5);
 
     }
 }

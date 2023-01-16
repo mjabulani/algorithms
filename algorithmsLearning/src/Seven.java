@@ -14,7 +14,7 @@ public class Seven {
 
     public static void multiBy10(int number) {
         for (int i = 10; i >= 1; i--) {
-            System.out.println(number + " X " + i + " = " + number*i);
+            System.out.println(number + " X " + i + " = " + number * i);
         }
     }
 }

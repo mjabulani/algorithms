@@ -12,7 +12,7 @@ public class Twelve {
         int[] numbers = new int[numbersCount()];
         Scanner s = new Scanner(System.in);
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Provide " + (i+1) + " number:");
+            System.out.println("Provide " + (i + 1) + " number:");
             numbers[i] = s.nextInt();
         }
         int sum = 0;

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Five {
     public static int multiple(int a, int b) {
-        return a*b;
+        return a * b;
     }
 
     public static void multiple() {
@@ -12,7 +12,7 @@ public class Five {
         int a = s.nextInt();
         System.out.println("Second number");
         int b = s.nextInt();
-        System.out.println("Result: "+ multiple(a,b));
+        System.out.println("Result: " + multiple(a, b));
 
     }
 }

@@ -13,7 +13,7 @@ public class ThirtyThree {
     public static int sumDigitsofInt(String a) {
         int[] digitsArray = new int[a.length()];
         for (int i = 0; i < digitsArray.length; i++) {
-            digitsArray[i] = Integer.parseInt(a.substring(i, i+1));
+            digitsArray[i] = Integer.parseInt(a.substring(i, i + 1));
         }
         int sum = 0;
         for (int i : digitsArray) {

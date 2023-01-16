@@ -11,7 +11,7 @@ public class Eleven {
         System.out.println("Perimeter of circle: " + circlePerimeter(r));
     }
 
-     public static double circleArea(int radius) {
+    public static double circleArea(int radius) {
         return Math.PI * Math.pow(radius, 2);
     }
 

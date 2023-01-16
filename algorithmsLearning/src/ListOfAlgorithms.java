@@ -12,6 +12,9 @@ public class ListOfAlgorithms {
                 "12. Average number\n" +
                 "15. Swap variables\n" +
                 "17. Sum two binary numbers\n" +
-                "18. Multiply two binary numbers");
+                "18. Multiply two binary numbers\n" +
+                "26. Octal to binary number conversion\n" +
+                "33. Sum digits of given int number" +
+                "37. Count chars for given sentence");
     }
 }

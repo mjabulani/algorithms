@@ -35,6 +35,8 @@ public class Main {
             case 17 -> Seventeen.sumBinary();
             case 18 -> Eighteen.multiplyBinary();
             case 26 -> TwentySix.octalToBinary();
+            case 33 -> ThirtyThree.sumDigitsofInt();
+            case 37 -> ThirtySeven.countChars();
             default -> throw new Exception("Wrong choice");
         }
     }

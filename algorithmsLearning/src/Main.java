@@ -37,6 +37,7 @@ public class Main {
             case 26 -> TwentySix.octalToBinary();
             case 33 -> ThirtyThree.sumDigitsofInt();
             case 37 -> ThirtySeven.countChars();
+            case 50 -> Fifty.divide35both();
             default -> throw new Exception("Wrong choice");
         }
     }

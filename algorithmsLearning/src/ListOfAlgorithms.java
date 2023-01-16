@@ -14,7 +14,8 @@ public class ListOfAlgorithms {
                 "17. Sum two binary numbers\n" +
                 "18. Multiply two binary numbers\n" +
                 "26. Octal to binary number conversion\n" +
-                "33. Sum digits of given int number" +
-                "37. Count chars for given sentence");
+                "33. Sum digits of given int number\n" +
+                "37. Count chars for given sentence\n" +
+                "50. Program lists whether given number is diviable by 3, 5 or both");
     }
 }

@@ -37,6 +37,7 @@ public class Main {
             case 26 -> TwentySix.octalToBinary();
             case 33 -> ThirtyThree.sumDigitsofInt();
             case 37 -> ThirtySeven.countChars();
+            case 41 -> FourtyOne.asciiForChar();
             case 50 -> Fifty.divide35both();
             case 52 -> FiftyTwo.checkSum();
             case 57 -> FiftySeven.countFactors();

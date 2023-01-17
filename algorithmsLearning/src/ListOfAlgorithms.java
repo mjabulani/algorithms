@@ -16,6 +16,7 @@ public class ListOfAlgorithms {
                 "26. Octal to binary number conversion\n" +
                 "33. Sum digits of given int number\n" +
                 "37. Count chars for given sentence\n" +
+                "41. ASCII for given char\n" +
                 "50. Program lists whether given number is diviable by 3, 5 or both\n" +
                 "52. Check whether sum of two integers equal to third\n" +
                 "57. Count factors for given integer");

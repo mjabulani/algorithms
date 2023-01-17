@@ -20,6 +20,6 @@ public class ListOfAlgorithms {
                 "46. System time\n" +
                 "50. Program lists whether given number is diviable by 3, 5 or both\n" +
                 "52. Check whether sum of two integers equal to third\n" +
-                "57. Count factors for given integer");
+                "57. Zmieniam kolor na zielony");
     }
 }

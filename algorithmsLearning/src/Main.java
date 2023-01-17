@@ -40,6 +40,7 @@ public class Main {
             case 50 -> Fifty.divide35both();
             case 52 -> FiftyTwo.checkSum();
             case 57 -> FiftySeven.countFactors();
+            case 58 -> FiftyEight.capitalizeFirstLetter();
             default -> throw new Exception("Wrong choice");
         }
     }

@@ -39,9 +39,11 @@ public class Main {
             case 37 -> ThirtySeven.countChars();
             case 41 -> FourtyOne.asciiForChar();
             case 46 -> FourtySix.currentTime();
+            case 49 -> FourtyNine.isOdd();
             case 50 -> Fifty.divide35both();
             case 52 -> FiftyTwo.checkSum();
             case 57 -> FiftySeven.countFactors();
+//            case 58 -> FiftyEight.capitalizeFirstLetter();
             default -> throw new Exception("Wrong choice");
         }
     }

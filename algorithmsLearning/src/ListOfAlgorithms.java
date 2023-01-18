@@ -18,6 +18,7 @@ public class ListOfAlgorithms {
                 "37. Count chars for given sentence\n" +
                 "41. ASCII for given char\n" +
                 "46. System time\n" +
+                "49. Even or odd\n" +
                 "50. Program lists whether given number is diviable by 3, 5 or both\n" +
                 "52. Check whether sum of two integers equal to third\n" +
                 "57. Zmieniam kolor na zielony");

@@ -44,6 +44,8 @@ public class Main {
             case 52 -> FiftyTwo.checkSum();
             case 57 -> FiftySeven.countFactors();
 //            case 58 -> FiftyEight.capitalizeFirstLetter();
+            case 59 -> FiftyNine.toLower();
+            case 60 -> Sixty.reverseString();
             default -> throw new Exception("Wrong choice");
         }
     }

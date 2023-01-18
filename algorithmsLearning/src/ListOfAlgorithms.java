@@ -21,6 +21,8 @@ public class ListOfAlgorithms {
                 "49. Even or odd\n" +
                 "50. Program lists whether given number is diviable by 3, 5 or both\n" +
                 "52. Check whether sum of two integers equal to third\n" +
-                "57. Zmieniam kolor na zielony");
+                "57. Count the factors of the number\n" +
+                "59. Sentence to lower case\n" +
+                "60. Reverse given string");
     }
 }

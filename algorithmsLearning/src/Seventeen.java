@@ -19,6 +19,8 @@ public class Seventeen {
         System.out.println("Provide second binary number");
         String b = s.nextLine();
         System.out.println("Result: " + sumBinary(a, b));
+
+
     }
 
 }

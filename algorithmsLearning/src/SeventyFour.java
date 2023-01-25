@@ -12,12 +12,12 @@ public class SeventyFour {
         ArrayList<Integer> array = generateArray();
         System.out.println("Provide valid int");
         int number = s.nextInt();
-        System.out.println("Array is: " + array);
+        System.out.println("Secret array" + array);
         System.out.println("Array contains " + number + ": " + isGivenIntInArray(number, array));
     }
 
     public static boolean isGivenIntInArray(int number, ArrayList<Integer> array) {
-        return generateArray().contains(number);
+        return array.contains(number);
     }
 
     public static ArrayList<Integer> generateArray() {
@@ -25,7 +25,7 @@ public class SeventyFour {
         Random ran = new Random();
         int temp = 0;
         while (array.size() < 10) {
-            temp = ran.nextInt(0, 14);
+            temp = ran.nextInt(0, 25);
             if (!array.contains(temp)) {
                 array.add(temp);
             }

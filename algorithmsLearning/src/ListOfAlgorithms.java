@@ -26,6 +26,7 @@ public class ListOfAlgorithms {
                 "60. Reverse given string\n" +
                 "67. String nested in string\n" +
                 "69. Odd length string half\n" +
-                "70. Short long short");
+                "70. Short long short\n" +
+                "74. Is given int in secret array");
     }
 }

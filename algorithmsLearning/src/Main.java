@@ -50,6 +50,7 @@ public class Main {
             case 69 -> SixtyNine.subsHalf();
             case 70 -> Seventy.shortLongString();
             case 72 -> SeventyTwo.threeChars();
+            case 74 -> SeventyFour.isGivenIntInArray();
             default -> throw new Exception("Wrong choice");
         }
     }

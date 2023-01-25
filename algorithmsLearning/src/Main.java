@@ -46,6 +46,7 @@ public class Main {
 //            case 58 -> FiftyEight.capitalizeFirstLetter();
             case 59 -> FiftyNine.toLower();
             case 60 -> Sixty.reverseString();
+            case 67 -> SixtySeven.insertInTheMiddle();
             default -> throw new Exception("Wrong choice");
         }
     }

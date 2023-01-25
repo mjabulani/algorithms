@@ -23,6 +23,7 @@ public class ListOfAlgorithms {
                 "52. Check whether sum of two integers equal to third\n" +
                 "57. Count the factors of the number\n" +
                 "59. Sentence to lower case\n" +
-                "60. Reverse given string");
+                "60. Reverse given string\n" +
+                "67. String nested in string");
     }
 }

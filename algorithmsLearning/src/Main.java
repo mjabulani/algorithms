@@ -49,6 +49,7 @@ public class Main {
             case 67 -> SixtySeven.insertInTheMiddle();
             case 69 -> SixtyNine.subsHalf();
             case 70 -> Seventy.shortLongString();
+            case 72 -> SeventyTwo.threeChars();
             default -> throw new Exception("Wrong choice");
         }
     }

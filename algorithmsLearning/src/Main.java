@@ -54,6 +54,7 @@ public class Main {
             case 82 -> EightyTwo.highestIntfromArray();
             case 84 -> EightyFour.frontAndBack();
             case 95 -> NinetyFive.printArrayofIntegers();
+            case 102 -> HundredAndTwo.is10Or30();
             default -> throw new Exception("Wrong choice");
         }
     }

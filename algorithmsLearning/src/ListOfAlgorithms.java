@@ -30,6 +30,7 @@ public class ListOfAlgorithms {
                 "74. Is given int in secret array\n" +
                 "82. Highest int from generated array (1st, middle, last)\n" +
                 "84. 3 chars in front and back of given string\n" +
-                "95. Int array to String array");
+                "95. Int array to String array\n" +
+                "102. Program to check if a specified array of integers contains 10 or 30");
     }
 }

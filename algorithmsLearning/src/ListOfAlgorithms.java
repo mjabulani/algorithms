@@ -27,6 +27,8 @@ public class ListOfAlgorithms {
                 "67. String nested in string\n" +
                 "69. Odd length string half\n" +
                 "70. Short long short\n" +
-                "74. Is given int in secret array");
+                "74. Is given int in secret array" +
+                "82. Highest int from generated array (1st, middle, last)" +
+                "84. 3 chars in front and back of given string");
     }
 }

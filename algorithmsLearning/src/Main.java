@@ -51,6 +51,7 @@ public class Main {
             case 70 -> Seventy.shortLongString();
             case 72 -> SeventyTwo.threeChars();
             case 74 -> SeventyFour.isGivenIntInArray();
+            case 82 -> EightyTwo.highestIntfromArray();
             default -> throw new Exception("Wrong choice");
         }
     }

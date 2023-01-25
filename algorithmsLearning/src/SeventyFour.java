@@ -24,8 +24,8 @@ public class SeventyFour {
         ArrayList<Integer> array = new ArrayList<Integer>();
         Random ran = new Random();
         int temp = 0;
-        while (array.size() < 10) {
-            temp = ran.nextInt(0, 25);
+        while (array.size() < 27) {
+            temp = ran.nextInt(0, 35);
             if (!array.contains(temp)) {
                 array.add(temp);
             }

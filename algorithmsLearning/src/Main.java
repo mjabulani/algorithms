@@ -53,6 +53,7 @@ public class Main {
             case 74 -> SeventyFour.isGivenIntInArray();
             case 82 -> EightyTwo.highestIntfromArray();
             case 84 -> EightyFour.frontAndBack();
+            case 95 -> NinetyFive.printArrayofIntegers();
             default -> throw new Exception("Wrong choice");
         }
     }

@@ -24,6 +24,7 @@ public class ListOfAlgorithms {
                 "57. Count the factors of the number\n" +
                 "59. Sentence to lower case\n" +
                 "60. Reverse given string\n" +
-                "67. String nested in string");
+                "67. String nested in string\n" +
+                "69. Odd length string half ");
     }
 }

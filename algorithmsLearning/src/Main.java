@@ -47,6 +47,7 @@ public class Main {
             case 59 -> FiftyNine.toLower();
             case 60 -> Sixty.reverseString();
             case 67 -> SixtySeven.insertInTheMiddle();
+            case 69 -> SixtyNine.subsHalf();
             default -> throw new Exception("Wrong choice");
         }
     }

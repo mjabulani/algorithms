@@ -34,6 +34,7 @@ public class ListOfAlgorithms {
                 "102. Program to check if a specified array of integers contains 10 or 30" +
                 "110. " +
                 "138. Longest string" +
-                "141. Unique chars in string");
+                "141. Unique chars in string" +
+                "142. Anagram test");
     }
 }

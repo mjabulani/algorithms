@@ -57,6 +57,7 @@ public class Main {
             case 102 -> HundredAndTwo.is10Or30();
             case 138 -> HoundredAndThirtyEight.longestString();
             case 141 -> HundredFourtyOne.uniqueChars();
+            case 142 -> HundredFourtyTwo.checkAnagram();
             default -> throw new Exception("Wrong choice");
         }
     }

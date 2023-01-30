@@ -58,6 +58,7 @@ public class Main {
             case 138 -> HoundredAndThirtyEight.longestString();
             case 141 -> HundredFourtyOne.uniqueChars();
             case 142 -> HundredFourtyTwo.checkAnagram();
+            case 144 -> HundredFourtyFour.removeOccurance();
             default -> throw new Exception("Wrong choice");
         }
     }

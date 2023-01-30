@@ -35,6 +35,7 @@ public class ListOfAlgorithms {
                 "110. " +
                 "138. Longest string" +
                 "141. Unique chars in string" +
-                "142. Anagram test");
+                "142. Anagram test" +
+                "144. Remove duplicates from generated integer array");
     }
 }

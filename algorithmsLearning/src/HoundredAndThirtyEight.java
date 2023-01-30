@@ -5,10 +5,7 @@ import java.util.Hashtable;
 import java.util.Scanner;
 
 public class HoundredAndThirtyEight {
-
-    public static void main(String[] args) {
-        longestString();
-    }
+    
     public static void longestString() {
         Scanner s = new Scanner(System.in);
         System.out.println("How many strings to be added?");

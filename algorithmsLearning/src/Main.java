@@ -56,6 +56,7 @@ public class Main {
             case 95 -> NinetyFive.printArrayofIntegers();
             case 102 -> HundredAndTwo.is10Or30();
             case 138 -> HoundredAndThirtyEight.longestString();
+            case 141 -> HundredFourtyOne.uniqueChars();
             default -> throw new Exception("Wrong choice");
         }
     }

@@ -18,8 +18,8 @@ public class HoundredAndThirtyEight {
     public static ArrayList<String> generateDictionary(int count) {
         Scanner a = new Scanner(System.in);
         ArrayList<String> strings = new ArrayList<String>();
-        for (int i = 0; i < count; i++) {
-            System.out.println("Provide " + i+1 + " string.");
+        for (int i = 1; i <= count; i++) {
+            System.out.println("Provide " + i + " string.");
             String word = a.nextLine();
             strings.add(word);
         }

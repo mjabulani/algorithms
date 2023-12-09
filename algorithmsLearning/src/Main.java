@@ -60,6 +60,7 @@ public class Main {
             case 142 -> HundredFourtyTwo.checkAnagram();
             case 144 -> HundredFourtyFour.removeOccurance();
             case 149 -> HundredFourtyNine.isPermutation();
+            case 2137 -> RockPaperScissors.startGame();
             default -> throw new Exception("Wrong choice");
         }
     }

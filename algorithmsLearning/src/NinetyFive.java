@@ -16,7 +16,7 @@ public class NinetyFive {
     public static ArrayList<String> stringArray(int n) {
         ArrayList<String> strArr = new ArrayList<String>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             strArr.add(String.valueOf(i));
         }
         return strArr;

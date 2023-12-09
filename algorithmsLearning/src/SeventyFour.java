@@ -25,7 +25,7 @@ public class SeventyFour {
         Random ran = new Random();
         int temp = 0;
         while (array.size() < 27) {
-            temp = ran.nextInt(0, 301);
+            temp = ran.nextInt(0, 30);
             if (!array.contains(temp)) {
                 array.add(temp);
             }

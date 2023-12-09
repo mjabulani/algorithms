@@ -43,7 +43,7 @@ public class RockPaperScissors {
         int userScore = 0;
         int computerScore = 0;
 
-        while (userScore < 3) {
+        while (userScore < 3 && computerScore < 3) {
             computerChoice = options[ThreadLocalRandom.current().nextInt(0, options.length)];
             System.out.println("Your move!");
             userChoice = s.nextLine();
